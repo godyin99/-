@@ -7,10 +7,10 @@ function setUserName() {
 
 };
 
-if(!localStorage.setItem('name')) {
+if(!localStorage.getItem('name')) {
   setUserName();
   } else {
-  let storedName = localStorage.setItem('name');
+  let storedName = localStorage.getItem('name');
   myHeading.textContent = 'Mozilla 酷毙了，' + storedName;
   };
 
