@@ -13,3 +13,7 @@ if(!localStorage.setItem('name')) {
   let storedName = localStorage.setItem('name');
   myHeading.textContent = 'Mozilla 酷毙了，' + storedName;
   }
+
+myButton.onClick = function() {
+  setUserName();
+}
