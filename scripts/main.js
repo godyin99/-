@@ -23,10 +23,10 @@ myButton.onclick = function() {
 }
 let myImage = document.querySelector('image');
 myImage.onclick = function() {
-let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/website-screenshot.png') {
-    myImage.setAttrbute('src', 'images/Firefox.png')
-  } else {
-    myImage.setAttrbute('src', 'images/website-screenshot.png');
-  }
+  let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/website-screenshot.png') {
+     myImage.setAttrbute('src', 'images/Firefox.png')
+   } else {
+      myImage.setAttrbute('src', 'images/website-screenshot.png');
+      }
   }
